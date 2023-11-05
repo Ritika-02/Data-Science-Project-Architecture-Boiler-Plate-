@@ -1,28 +1,27 @@
-# This is my end to end project
 
-# First initialize the git
-```
-git init 
-```
+# Data Science Project Template
 
-```
-git add .
-```
-```
-git commit -m "First commit"
-```
+This template provides a boilerplate structure for your Data Science project, guiding you through the setup and organization of your project.
 
-```
-bash your_file_name.sh
-```
+## Project Setup
+
+- **Creating Folder in VS Code**: Create a folder for your project in your Visual Studio Code workspace.
+
+- **Installing Git Bash**: If not already installed, you can use Git Bash for version control.
+
+- **Initialize a Git Repository**: Manually initialize a Git repository:
+  ```bash
+  git init
+  git add .
+  git commit -m "Initial commit"
 
 
-```
-python setup.py install
-```
+- Creating README.md: Create a README.md file to document your project.
 
-# another way you can mentions -e . in your requirement file and you can run
+- .gitignore File: Create a .gitignore file directly from GitHub to specify files and directories to ignore in version control.
 
-```
-pip install -r requirements.txt
-```
+- License: Choose and add a license to your project.
+
+- Shell Script (sh): Create a shell script to automate common tasks and setup your project environment. This script is meant for use in Git Bash on Windows.
+
+
